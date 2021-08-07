@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #444444;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+  position: relative;
+}
+
+.nav-link {
+  font-size: 18px;
+  border-radius: 10em;
+}
+
+.fadeup-enter-done {
+  transition-duration: 1000ms;
+  transition-delay: 5000ms;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container {
+  overflow: auto;
+}
+
+img {
+  align-items: center;
+  border-radius: 1em;
+  min-height: 100%;
+  zoom: 10;
+}
+
+.headshot {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.a {
+  text-decoration: none;
+  color: #007bff;
+  transition: all 0.3s;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: #111;
+  transition: all 0.3s;
+}
+
+.social-link {
+  max-width: 60px;
+  position: absolute;
+  /* margin-top: auto; */
+  /* display: flex; */
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 35%;
+}
+
+.social-link li {
+
+  float: left;
+  border-radius: 50%;
+  position: relative;
+  display: inline;
+  padding: 10px 0px 10px 0px;
+  max-width: 50px;
+}
