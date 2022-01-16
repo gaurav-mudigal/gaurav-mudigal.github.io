@@ -6,7 +6,7 @@ body {
   color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.625em;
   position: relative;
 }
@@ -128,7 +128,6 @@ p {
 .card-img-top {
   max-width: 300px;
   max-height: 200px;
-  padding: 0%;
 }
 
 .icon-box {
@@ -162,18 +161,7 @@ p {
   /* max-width: 30%; */
   max-height: 400px;
 }
-.social-link:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
-  text-shadow: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
+
 #contact {
   font-weight: 200;
-}
-
-.modal-content {
-  background-color: #17141d !important;
-  color: white !important;
 }
