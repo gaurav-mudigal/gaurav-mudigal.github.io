@@ -17,8 +17,8 @@ body {
 }
 
 .fadeup-enter-done {
-  transition-duration: 1000ms;
-  transition-delay: 5000ms;
+  transition-duration: 1ms;
+  transition-delay: 0.3ms;
 }
 
 p {
@@ -62,7 +62,7 @@ p {
 
 .a:hover {
   text-decoration: none;
-  color: #111;
+  color: linear-gradient(90deg, #ff8a00, #e52e71);
   transition: all 0.3s;
 }
 
@@ -119,6 +119,15 @@ p {
   /* flex-wrap: wrap; */
 }
 
+#exp-desc {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  /* flex-wrap: wrap; */
+}
+
 /* .card-img {
   max-width: 300px;
   max-height: 200px;
@@ -164,12 +173,13 @@ p {
 }
 
 .social-link:hover {
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  /* background: linear-gradient(90deg, #ff8a00, #e52e71); */
   text-shadow: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: linear-gradient(90deg, #ff8a00, #e52e71);
+  /* -webkit-background-clip: text; */
   background-clip: text;
 }
+
 #contact {
   font-weight: 200;
 }
@@ -182,7 +192,7 @@ p {
 
 #amazon-button,
 #paytm-button {
-  background-color: #444444;
+  background-color: #302d2d;
   color: rgb(189, 186, 186);
   border: 2px solid #4f524f;
 }
